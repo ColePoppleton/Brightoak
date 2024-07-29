@@ -25,9 +25,8 @@ This document provides guidance on how to populate the database tables for your 
 | `TrainerID`                 | `INTEGER`   | A unique identifier for the trainer.                                               | `1`, `2`, `3`                          |
 | `TrainerName`               | `TEXT`      | The full name of the trainer.                                                     | `John Doe`, `Jane Smith`               |
 | `TrainerBio`                | `TEXT`      | A short biography of the trainer.                                                  | `Experienced ITIL consultant...` |
-| `TrainerLocationDescriptive` | `TEXT`      | A human-readable description of the trainer's location (e.g., "London, UK").       | `London, UK`                       |
-| `TrainerLocationLatitude`    | `REAL`      | The latitude coordinate of the trainer's location.                                | `51.5074`                            |
-| `TrainerLocationLongitude`   | `REAL`      | The longitude coordinate of the trainer's location.                               | `-0.1278`                            |
+| `TrainerLocationPostcode`    | `REAL`      | The postcode of the trainer's location.                                | `SW1A 0AA`                            |
+| `TrainerLocationAddress`   | `REAL`      | The full address of the trainer's location.                             | `10 Downing Street, London`                            |
 
 ### Other Tables
 
